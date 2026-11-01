@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="21" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-11-01T15:52:29" hostname="localhost">
+  <testsuite name="com.example.myapplication.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.001" timestamp="2026-11-01T15:52:29" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="useAppContext" classname="com.example.myapplication.ExampleInstrumentedTest" time="0.001" />
+  </testsuite>
+  <testsuite name="com.example.myapplication.PracticeReviewTest" tests="11" failures="0" errors="0" skipped="0" time="28.029" timestamp="2026-11-01T15:52:29" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="buttonWorks" classname="com.example.myapplication.PracticeReviewTest" time="4.152" />
+    <testcase name="switchingTasksPreservesWaterCounter" classname="com.example.myapplication.PracticeReviewTest" time="2.969" />
+    <testcase name="textVariantsRender" classname="com.example.myapplication.PracticeReviewTest" time="2.144" />
+    <testcase name="contactsRender" classname="com.example.myapplication.PracticeReviewTest" time="2.703" />
+    <testcase name="waterScreenRenders" classname="com.example.myapplication.PracticeReviewTest" time="2.615" />
+    <testcase name="cartSurvivesRestorationWithoutInflatingTotal" classname="com.example.myapplication.PracticeReviewTest" time="1.733" />
+    <testcase name="circlesRender" classname="com.example.myapplication.PracticeReviewTest" time="2.630" />
+    <testcase name="greetingHandlesBothCases" classname="com.example.myapplication.PracticeReviewTest" time="1.919" />
+    <testcase name="initialsRender" classname="com.example.myapplication.PracticeReviewTest" time="2.652" />
+    <testcase name="cartTotalsFollowProductsAndRemoveButtonDisappears" classname="com.example.myapplication.PracticeReviewTest" time="2.779" />
+    <testcase name="previewGreetingRenders" classname="com.example.myapplication.PracticeReviewTest" time="1.733" />
+  </testsuite>
+  <testsuite name="com.example.myapplication.WaterTrackerTest" tests="9" failures="0" errors="0" skipped="0" time="22.241" timestamp="2026-11-01T15:52:29" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="moreThan1500CountsAsSuccessfulDay" classname="com.example.myapplication.WaterTrackerTest" time="2.380" />
+    <testcase name="initialStreakTextIsShown" classname="com.example.myapplication.WaterTrackerTest" time="1.533" />
+    <testcase name="emptyDayBreaksStreak" classname="com.example.myapplication.WaterTrackerTest" time="2.566" />
+    <testcase name="insufficientWaterBreaksStreak" classname="com.example.myapplication.WaterTrackerTest" time="3.134" />
+    <testcase name="addButtonAdds250EachTime" classname="com.example.myapplication.WaterTrackerTest" time="2.061" />
+    <testcase name="countersSurviveStateRestoration" classname="com.example.myapplication.WaterTrackerTest" time="2.667" />
+    <testcase name="consecutiveSuccessfulDaysIncrementStreak" classname="com.example.myapplication.WaterTrackerTest" time="3.164" />
+    <testcase name="exactly1500CountsAsSuccessfulDay" classname="com.example.myapplication.WaterTrackerTest" time="2.293" />
+    <testcase name="finishButtonResetsWater" classname="com.example.myapplication.WaterTrackerTest" time="2.443" />
+  </testsuite>
+</testsuites>
